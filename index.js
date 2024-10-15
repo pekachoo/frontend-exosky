@@ -32,7 +32,7 @@ const planetName = pathSegments[1];
 document.addEventListener("DOMContentLoaded", () => {
     setupButtons();  // Initialize the buttons
     // You can also call the rendering function here
-    renderPlanet("Data\\star_data3.json");
+    // renderPlanet("Data\\star_data3.json");
     // renderPlanet(planetName);
-    // renderPlanet(1920);
+    renderPlanet(67);
 });
